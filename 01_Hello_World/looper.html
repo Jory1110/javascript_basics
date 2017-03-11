@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+  <script type="text/javascript">google.load("jquery", "1.3.2");</script>
+  
+  
+  
+  
+    <script>
+	function loop() {
+		var apple = 100;
+	
+		for(i = 0; i <= apple; i++) {
+		var appendme = "<p>Harry Potter</p>";
+		if(i == 100){
+			$("body").append("<p>I was watching Harry Potter while doing homework!!!</p>");
+		}else 
+			{
+				$("body").append(appendme);
+			}
+		}
+			
+		
+		
+	}
+	</script>
+	 
+  </head>
+  
+  <body>
+    <!-- Your page here (can include more script tags) -->
+	<h1 id = "Question">Loops!!!!</h1>
+	
+	<p></p>
+	<button onclick="loop()">Loop Me</button>
+	<p></p>
+	<a id= "nextpage" href = "index.html">Back to question</a>
+    
+  </body>
+</html>
